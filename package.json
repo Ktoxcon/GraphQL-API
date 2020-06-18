@@ -1,0 +1,17 @@
+{
+  "name": "first-graphql",
+  "version": "1.0.0",
+  "description": "A simple GraphQL Server",
+  "main": "index.js",
+  "repository": "https://github.com/Ktoxcon/GraphQL-API.git",
+  "author": "KToxcon",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "graphql-yoga": "^1.18.3",
+    "nodemon": "^2.0.4"
+  }
+}
